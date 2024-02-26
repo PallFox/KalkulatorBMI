@@ -16,7 +16,9 @@ namespace KalkulatorBMI
         }
         private void SumaryButton_Clicked(object sender, EventArgs e)
         {
-
+            Archives data = new Archives { Height = int.Parse(EntHeight.Text), Weight = int.Parse(EntWeight.Text) };
+            double BMI = data.Weight / (data.Height / 100) * (data.Height / 100);
+            LblResult.Text = BMI.ToString();
         }
     }
 }

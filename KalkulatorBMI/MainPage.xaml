@@ -17,6 +17,7 @@
         <Entry x:Name="EntWeight"/>
 
         <Button Text="Oblicz" Clicked="SumaryButton_Clicked"/>
+        <Label x:Name="LblResult" Text=""/>
     </StackLayout>
 
 </ContentPage>
