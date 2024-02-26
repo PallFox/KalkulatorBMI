@@ -14,5 +14,9 @@ namespace KalkulatorBMI
         {
             InitializeComponent();
         }
+        private void SumaryButton_Clicked(object sender, EventArgs e)
+        {
+
+        }
     }
 }
